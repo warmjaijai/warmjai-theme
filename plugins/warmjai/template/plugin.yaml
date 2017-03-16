@@ -1,0 +1,6 @@
+plugin:
+    name: 'warmjai.template::lang.plugin.name'
+    description: 'warmjai.template::lang.plugin.description'
+    author: Warmjai
+    icon: oc-icon-bank
+    homepage: ''

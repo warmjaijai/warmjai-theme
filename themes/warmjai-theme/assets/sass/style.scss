@@ -1,0 +1,91 @@
+// Variables
+@import 'variables';
+
+// Bulma
+@import 'bulma/bulma.sass';
+
+
+
+html, body {
+    background-color: #fff;
+    color: #636b6f;	    
+    font-weight: 100;
+    height: 100vh;
+    margin: 0;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+.dropdown {
+  box-shadow: 0 0 8px #777;
+  display: none;
+  left: 0;
+  position: absolute;
+  top: 100%;
+  z-index: 1000;
+}
+
+.tc{
+  position:fixed;
+  top: 4rem;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, 0);
+}
+
+.pop-up-message{
+  min-height:5rem;
+  min-width:5rem;
+  z-index:9999;
+}
+
+.dropdown.is-open {
+  display: block;
+}
+
+.login-wrapper {
+  margin-top:1rem;
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active in <2.1.8 */ {
+  opacity: 0
+}
